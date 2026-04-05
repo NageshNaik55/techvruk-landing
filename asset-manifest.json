@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/techvruk-landing/static/css/main.7d80e4ba.css",
+    "main.js": "/techvruk-landing/static/js/main.cd2c3d34.js",
+    "static/media/robo.png": "/techvruk-landing/static/media/robo.e37984fd5219cdfb18d2.png",
+    "index.html": "/techvruk-landing/index.html",
+    "main.7d80e4ba.css.map": "/techvruk-landing/static/css/main.7d80e4ba.css.map",
+    "main.cd2c3d34.js.map": "/techvruk-landing/static/js/main.cd2c3d34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d80e4ba.css",
+    "static/js/main.cd2c3d34.js"
+  ]
+}
