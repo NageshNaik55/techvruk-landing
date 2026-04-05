@@ -1,0 +1,24 @@
+/* Custom button */
+.btn-techvruk {
+  background: linear-gradient(90deg, #00e5ff, #00bcd4);
+  color: black;
+  border: none;
+}
+
+.btn-techvruk:hover {
+  opacity: 0.9;
+}
+
+/* Glass card */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Gradient text */
+.text-gradient {
+  background: linear-gradient(90deg, #00e5ff, #d8b9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

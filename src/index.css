@@ -1,0 +1,51 @@
+/* Custom Techvruk Theme Variables */
+:root {
+  --primary: #c3f5ff;
+  --primary-container: #00e5ff;
+  --secondary: #d8b9ff;
+  --surface: #10141a;
+  --on-surface: #dfe2eb;
+  --on-surface-variant: #bac9cc;
+  --headline-font: "Space Grotesk", sans-serif;
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  font-family: "Inter", sans-serif;
+}
+
+/* The "Glass" Effect */
+.glass-panel {
+  backdrop-filter: blur(16px);
+  background: rgba(28, 32, 38, 0.7);
+  border: 1px solid rgba(132, 147, 150, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(
+    to right,
+    var(--primary),
+    var(--primary-container),
+    var(--secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-techvruk {
+  background: linear-gradient(
+    to bottom right,
+    var(--primary),
+    var(--primary-container)
+  );
+  color: #001f24;
+  font-weight: 700;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-techvruk:hover {
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+  transform: scale(1.02);
+}
